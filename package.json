@@ -1,0 +1,52 @@
+{
+  "name": "bhss",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://vinod0197.github.io/React_BHSS",
+  "dependencies": {
+    "bhss": "file:",
+    "bootstrap": "^5.3.3",
+    "cra-template": "1.2.0",
+    "nth-check": "^2.0.1",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.28.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.14",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.17"
+  }
+}
